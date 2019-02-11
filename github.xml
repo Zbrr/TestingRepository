@@ -17,5 +17,11 @@
       <kind value="page" />
       <format value="text/markdown" />
     </page>
+    <page>
+      <source value="summary.md" />
+      <title value="summary" />
+      <kind value="page" />
+      <format value="text/markdown" />
+    </page>
   </page>
 </ImplementationGuide>
