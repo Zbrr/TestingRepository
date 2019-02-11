@@ -1,0 +1,118 @@
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <id value="Ageism" />
+  <meta>
+    <lastUpdated value="2017-04-19T07:44:43.294+10:00" />
+  </meta>
+  <text>
+    <status value="generated" />
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;">
+        <tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;">
+          <th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+            <a href="formats.html#table" title="The logical name of the element">Name edited by RACHID</a>
+          </th>
+          <th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+            <a href="formats.html#table" title="Information about the use of the element">Flags</a>
+          </th>
+          <th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+            <a href="formats.html#table" title="Minimum and Maximum # of times the the element can appear in the instance">Card.</a>
+          </th>
+          <th style="width: 100px" class="hierarchy">
+            <a href="formats.html#table" title="Reference to the type of the element">Type</a>
+          </th>
+          <th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+            <a href="formats.html#table" title="Additional information about the element">Description &amp; Constraints</a>
+            <span style="float: right">
+              <a href="formats.html#table" title="Legend for this format">
+                <img src="help16.png" alt="doco" style="background-color: inherit" />
+              </a>
+            </span>
+          </th>
+        </tr>
+        <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;">
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(data: image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAL0lEQVR42u3XsQ0AQAgCQHdl/xn8jxvYWB3JlTR0VJLa+OltBwAAYP6EEQAAgCsPVYVAgIJrA/sAAAAASUVORK5CYII=)" class="hierarchy">
+            <img src="data: image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy" />
+            <img src="data: image/png;base64,R0lGODlhEAAQAOZ/APrkusOiYvvfqbiXWaV2G+jGhdq1b8GgYf3v1frw3vTUlsWkZNewbcSjY/DQkad4Hb6dXv3u0f3v1ObEgfPTlerJiP3w1v79+e7OkPrfrfnjuNOtZPrpydaxa+/YrvvdpP779ZxvFPvnwKKBQaFyF/369M2vdaqHRPz58/HNh/vowufFhfroxO3OkPrluv779tK0e6JzGProwvrow9m4eOnIifPTlPDPkP78+Naxaf3v0/zowfXRi+bFhLWUVv379/rnwPvszv3rye3LiPvnv+3MjPDasKiIS/789/3x2f747eXDg+7Mifvu0tu7f+/QkfDTnPXWmPrjsvrjtPbPgrqZW+/QlPz48K2EMv36866OUPvowat8Ivvgq/Pbrvzgq/PguvrgrqN0Gda2evfYm9+7d/rpw9q6e/LSku/Rl/XVl/LSlfrkt+zVqe7Wqv3x1/bNffbOf59wFdS6if3u0vrqyP3owPvepfXQivDQkO/PkKh9K7STVf779P///////yH5BAEAAH8ALAAAAAAQABAAAAfNgH+Cg36FfoOIhH4JBxBghYl/hQkNAV0IVT5GkJKLCwtQaSsSdx9aR26Gcwt2IkQaNRI6dBERIzCFDSgWSW8WCDkbBnoOQ3uFARc/JQJfCAZlT0x4ZFyFBxdNQT9ZCBNWKQoKUQ+FEDgcdTIAV14YDmg2CgSFA0hmQC5TLE4VRTdrKJAoxOeFCzZSwsw4U6BCizwUQhQyEaAPiAwCVNCY0FCNnA6GPAwYoETIFgY9loiRA4dToTYnsOxg8CBGHE6ICvEYQ4AKzkidfgoKBAA7" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy" />
+            <a href="datatypes-definitions.html#Age" title="Age : A duration of time during which an organism (or a process) has existed.">Age</a>
+            <a name="Age"></a>
+          </td>
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+            <span style="padding: 3px" title="This element is included in summaries">Σ</span>
+            <span style="padding: 3px" title="This element has or is affected by some invariants">I</span>
+          </td>
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td>
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">
+            <a href="datatypes.html#Quantity">Quantity</a>
+          </td>
+          <td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">A duration of time during which an organism (or a process) has existed
+                  <br /><span style="font-style: italic" title="age-1">+ There SHALL be a code if there is a value and it SHALL be an expression of time.  If system is present, it SHALL be UCUM.  If value is present, it SHALL be positive.</span><br />Elements defined in Ancestors: 
+                  <a href="element.html#Element" title="unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.">id</a>, 
+                  <a href="element.html#Element" title="May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.">extension</a>, 
+                  <a href="datatypes.html#Quantity" title="The value of the measured amount. The value includes an implicit precision in the presentation of the value.">value</a>, 
+                  <a href="datatypes.html#Quantity" title="How the value should be understood and represented - whether the actual value is greater or less than the stated value due to measurement issues; e.g. if the comparator is &quot;&lt;&quot; , then the real value is &lt; stated value.">comparator</a>, 
+                  <a href="datatypes.html#Quantity" title="A human-readable form of the unit.">unit</a>, 
+                  <a href="datatypes.html#Quantity" title="The identification of the system that provides the coded form of the unit.">system</a>, 
+                  <a href="datatypes.html#Quantity" title="A computer processable form of the unit in some unit representation system.">code</a></td>
+        </tr>
+        <tr>
+          <td colspan="5" class="hierarchy">
+            <br />
+            <a href="formats.html#table" title="Legend for this format">
+              <img src="help16.png" alt="doco" style="background-color: inherit" /> Documentation for this format
+                  </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </text>
+  <url value="http://hl7.org/fhir/StructureDefinition/Age" />
+  <name value="Age" />
+  <status value="draft" />
+  <date value="2017-04-19T07:44:43+10:00" />
+  <publisher value="HL7 FHIR Standard" />
+  <contact>
+    <telecom>
+      <system value="url" />
+      <value value="http://hl7.org/fhir" />
+    </telecom>
+  </contact>
+  <description value="Base StructureDefinition for Age Type" />
+  <fhirVersion value="3.0.1" />
+  <mapping>
+    <identity value="rim" />
+    <uri value="http://hl7.org/v3" />
+    <name value="RIM Mapping" />
+  </mapping>
+  <mapping>
+    <identity value="v2" />
+    <uri value="http://hl7.org/v2" />
+    <name value="HL7 v2 Mapping" />
+  </mapping>
+  <kind value="complex-type" />
+  <abstract value="false" />
+  <type value="Age" />
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Quantity" />
+  <derivation value="specialization" />
+  <differential>
+    <element id="Age">
+      <path value="Age" />
+      <short value="A duration of time during which an organism (or a process) has existed" />
+      <definition value="A duration of time during which an organism (or a process) has existed." />
+      <constraint>
+        <key value="age-1" />
+        <severity value="error" />
+        <human value="There SHALL be a code if there is a value and it SHALL be an expression of time.  If system is present, it SHALL be UCUM.  If value is present, it SHALL be positive." />
+        <expression value="(code or value.empty()) and (system.empty() or system = %ucum) and (value.empty() or value &gt; 0)" />
+        <xpath value="(f:code or not(f:value)) and (not(exists(f:system)) or f:system/@value='http://unitsofmeasure.org') and (not(f:value/@value) or f:value/@value &gt;=0)" />
+      </constraint>
+      <mapping>
+        <identity value="rim" />
+        <map value="PQ" />
+      </mapping>
+    </element>
+    <element id="Age.value">
+      <path value="Age.value" />
+      <min value="1" />
+    </element>
+  </differential>
+</StructureDefinition>
