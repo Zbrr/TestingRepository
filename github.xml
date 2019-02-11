@@ -1,0 +1,15 @@
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <url value="https://staging.simplifier.net/guide/github" />
+  <name value="github" />
+  <status value="draft" />
+  <fhirVersion value="STU3" />
+  <page>
+    <title value="github" />
+    <page>
+      <source value="Home-duplicate-2.md" />
+      <title value="Home" />
+      <kind value="page" />
+      <format value="text/markdown" />
+    </page>
+  </page>
+</ImplementationGuide>
