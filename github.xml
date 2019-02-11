@@ -11,5 +11,11 @@
       <kind value="page" />
       <format value="text/markdown" />
     </page>
+    <page>
+      <source value="Introduction.md" />
+      <title value="Introduction" />
+      <kind value="page" />
+      <format value="text/markdown" />
+    </page>
   </page>
 </ImplementationGuide>
