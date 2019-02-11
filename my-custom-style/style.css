@@ -1,0 +1,188 @@
+html, body {
+  padding: 0;
+  margin: 0; 
+  background-color: white;}
+
+#ig-viewer {
+  /*background: #FDFCFC;*/
+  position: relative;
+  height: 100%; }
+  
+#ig-viewer .ig-view-content {
+    overflow: hidden;
+    min-height: 100%;
+    position: relative;
+    height: auto !important;
+    margin-bottom: -155px;
+    padding-bottom: 155px; }
+  
+    #ig-viewer .ig-view-content #ig-view-twolevelmenu .header {
+      background: #f9f9f9;
+      border-bottom: 1px solid #e0e0e0; }
+  
+      #ig-viewer .ig-view-content #ig-view-twolevelmenu .header .navbar {
+        background: #FFDC36; /* #EDEDED #63C1D8 #FFDC36 !important;  */
+        margin-bottom: 0px; }
+  
+        /* Hide title by changing font color to transparent */
+        #ig-viewer .ig-view-content #ig-view-twolevelmenu .header a.navbar-brand {
+            color: transparent;
+        }
+
+        /* Set logo by using an external image */
+        #ig-viewer .ig-view-content #ig-view-twolevelmenu .header a.navbar-brand {
+            color: transparent;
+            background: url('https://simplifier.net/images/simplifier-logo.png');
+            background-position: left center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        /* Change menu bar font color (title, menu & submenu) */
+        #ig-viewer .ig-view-content #ig-view-twolevelmenu .header .navbar a {
+          font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important; }
+  
+        /* Change menu bar font color (only menu) */
+        #ig-viewer .ig-view-content #ig-view-twolevelmenu .header .navbar-nav > li > a {
+            color: black;
+        }
+        
+        /* Change menu bar item background color and font color (only menu) */
+        #ig-viewer .ig-view-content #ig-view-twolevelmenu .header .navbar-nav > li > a:hover {
+            background-color: #FAFAFA;
+            color: #63C1D8;
+        }
+
+        /* Change menu bar font color (only submenu) */
+        #ig-viewer .ig-view-content #ig-view-twolevelmenu .header .navbar .dropdown-menu a {
+            color: #63C1D8;
+        }
+        
+        /* Change menu background color (only submenu) */
+        #ig-viewer .ig-view-content #ig-view-twolevelmenu .header .navbar .dropdown-menu {
+            background-color: white;
+            font-size: 14;
+        }
+
+        #ig-viewer .ig-view-content #ig-view-twolevelmenu .header .navbar .navbar-header {
+          margin-bottom: 0; }
+  
+        #ig-viewer .ig-view-content #ig-view-twolevelmenu .header .navbar .navbar-nav > li > a {
+          padding-top: 15px; }
+  
+    #ig-viewer .ig-view-content #ig-view-twolevelmenu .content {
+      margin-top: 10px; }
+ 
+    #ig-viewer .ig-view-content #ig-view-twolevelmenu .content .nav-pills > li > a {
+        overflow: hidden;
+        text-overflow: ellipsis; }
+
+  #ig-viewer .ig-view-footer {
+    background-color: #808080;
+    color: #eee;
+    height: 155px;
+    position: relative;
+    padding-top: 40px; }
+
+.roundbox {
+    border: 2px solid #BDBDBD;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #FAFAFA;
+    list-style-position:inside;
+    /* outline: black solid 5px;*/
+    /* outline-offset: 5px;*/
+}
+    
+.highlight {
+    color: blue;
+    font-family:    "Courier New"
+                    Courier
+                    monospace;
+}
+
+h1, h2, h3, h4{
+    color: #63C1D8;
+}
+
+h1{
+    color: #63C1D8;
+    background-color: #EDEDED;
+    padding: 0.5em;
+    font-size: 1.65em
+}
+
+/*standard table class for tables in html code*/
+table.standard-html{
+    table-layout: fixed;
+    width: 100%;
+}
+
+/*standard table class for cells in tables in html code*/
+th.standard-html, td.standard-html, tr.standard-html{
+    border-style: solid;
+    border-width: 1.5px 0.5px 1.5px;
+    border-color: #eeecec;
+    font-size: 14;
+    padding: 0.5em;
+    /*w3-hoverable*/
+}
+
+/*standard table class for tables in markdown*/
+.standard table{
+    table-layout: fixed;
+    width: 100%;
+}
+
+/*fitcontent table class for tables in markdown*/
+.fitcontent table{
+    table-layout: auto;
+    white-space:nowrap;
+}
+
+/*fitcontent table class for cells in tables in html code*/
+th.fitcontent, td.fitcontent, tr.fitcontent{
+    border-style: solid;
+    border-width: 1.5px 0.5px 1.5px;
+    border-color: #eeecec;
+    font-size: 14;
+    padding: 0.5em;
+    /*w3-hoverable*/
+}
+
+th {
+    background-color: #FAFAFA;
+}
+
+pre {
+  background-color: #EEE9E2;
+  font-family:     "Courier New"
+                    Courier
+                    monospace;
+}
+
+.scrollbalk{
+    max-height: 450px;
+    overflow: auto;
+}
+
+.sub-header {
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    background-color: red;
+}
+
+body
+{
+
+ background: {{render:Workflow-PNG}} no-repeat top left;
+
+    background-size:cover;
+
+    clear:both;
+    padding:0px;
+    margin:0px;
+}
+
